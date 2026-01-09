@@ -1,0 +1,81 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f2fd, #ede7f6);
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: #ffffff;
+  width: 70%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.card h2,
+.card h3 {
+  text-align: center;
+  color: #5e35b1;
+  margin-bottom: 20px;
+}
+
+/* form */
+.form-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  padding: 8px 16px;
+  background: #9575cd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #7e57c2;
+}
+
+.result-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.result-card td {
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+}
+
+.result-card td:first-child {
+  background: #f3e5f5;
+  width: 40%;
+}
+
+.result-card td:last-child {
+  color: #d32f2f;
+  font-weight: bold;
+}
