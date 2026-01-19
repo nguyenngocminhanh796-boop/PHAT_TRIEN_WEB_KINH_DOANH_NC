@@ -1,0 +1,26 @@
+<table border="1" cellpadding="10" >
+  <tr>
+    <th colspan="2">Ma Danh Muc</th>
+    <th colspan="2">Ten Danh Muc</th>
+  </tr>
+  <ng-container *ngFor="let cate of categories">
+    <tr>
+      <td colspan="2">{{ cate.Cateid }}</td>
+      <td colspan="2">{{ cate.CateName }}</td>
+    </tr>
+    <tr>
+      <th>Ma San Pham</th>
+      <th>Ten San Pham</th>
+      <th>Gia San Pham</th>
+      <th>Picture</th>
+    </tr>
+    <tr *ngFor="let p of cate.Products">
+      <td>{{ p.ProductId }}</td>
+      <td>{{ p.ProductName }}</td>
+      <td>{{ p.Price }}</td>
+      <td align="center">
+        <img [src]="p.Image" width="70" height="70">
+      </td>
+    </tr>
+  </ng-container>
+</table>
