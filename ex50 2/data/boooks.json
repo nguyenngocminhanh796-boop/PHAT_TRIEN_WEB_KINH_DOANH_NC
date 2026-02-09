@@ -1,0 +1,57 @@
+[
+  {
+    "id": "b1",
+    "title": "Kỹ thuật lập trình cơ bản",
+    "price": 70,
+    "description": "Cuốn sách cung cấp những kiến thức nền tảng nhất về lập trình cho người mới bắt đầu. Nội dung bao gồm tư duy thuật toán, cấu trúc điều khiển, biến, kiểu dữ liệu và cách xây dựng chương trình một cách logic. Phù hợp cho sinh viên năm nhất hoặc người chưa từng học lập trình.",
+    "image": "b1.jpg",
+    "updatedAt": "2024-01-10T08:00:00",
+    "quantity": 120,
+    "categoryId": "CD01",
+    "publisherId": "NXB01"
+  },
+  {
+    "id": "b2",
+    "title": "Kỹ thuật lập trình nâng cao",
+    "price": 100,
+    "description": "Sách tập trung vào các kỹ thuật lập trình nâng cao như lập trình hướng đối tượng, quản lý bộ nhớ, xử lý ngoại lệ và tối ưu thuật toán. Nội dung có nhiều ví dụ thực hành, giúp sinh viên nâng cao khả năng phân tích và giải quyết bài toán lập trình phức tạp.",
+    "image": "b2.png",
+    "updatedAt": "2024-01-12T08:00:00",
+    "quantity": 90,
+    "categoryId": "CD02",
+    "publisherId": "NXB01"
+  },
+  {
+    "id": "b3",
+    "title": "Máy học cơ bản",
+    "price": 200,
+    "description": "Cuốn sách giới thiệu các khái niệm nền tảng của Machine Learning như supervised learning, unsupervised learning, hồi quy tuyến tính, phân loại và clustering. Nội dung được trình bày dễ hiểu, phù hợp cho sinh viên công nghệ thông tin hoặc người mới tiếp cận lĩnh vực trí tuệ nhân tạo.",
+    "image": "b3.png",
+    "updatedAt": "2024-01-15T08:00:00",
+    "quantity": 60,
+    "categoryId": "CD03",
+    "publisherId": "NXB02"
+  },
+  {
+    "id": "b4",
+    "title": "Máy học nâng cao",
+    "price": 300,
+    "description": "Sách đi sâu vào các mô hình Machine Learning nâng cao như neural networks, deep learning, convolutional neural networks và các kỹ thuật tối ưu mô hình. Phù hợp cho sinh viên đã có nền tảng machine learning và muốn nghiên cứu chuyên sâu hoặc ứng dụng vào các bài toán thực tế.",
+    "image": "b4.png",
+    "updatedAt": "2024-01-18T08:00:00",
+    "quantity": 40,
+    "categoryId": "CD04",
+    "publisherId": "NXB02"
+  },
+  {
+    "id": "b5",
+    "title": "Lập trình Robot cơ bản",
+    "price": 250,
+    "description": "Cuốn sách cung cấp kiến thức cơ bản về lập trình robot, bao gồm điều khiển chuyển động, xử lý tín hiệu cảm biến và xây dựng các chương trình điều khiển đơn giản. Nội dung hướng tới sinh viên ngành kỹ thuật, tự động hóa và những người yêu thích robotics.",
+    "image": "b5.png",
+    "updatedAt": "2024-01-20T08:00:00",
+    "quantity": 50,
+    "categoryId": "CD05",
+    "publisherId": "NXB03"
+  }
+]

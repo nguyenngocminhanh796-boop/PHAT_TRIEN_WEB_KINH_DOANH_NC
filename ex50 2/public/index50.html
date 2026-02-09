@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 50 - Book Management</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      background: #f8f8f8;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background: white;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f0f0f0;
+    }
+
+    tr:hover {
+      background: #fafafa;
+    }
+
+    a {
+      cursor: pointer;
+      color: #0066cc;
+      text-decoration: underline;
+      margin-right: 6px;
+    }
+
+    img {
+      width: 70px;
+    }
+
+    #formArea {
+      margin-top: 25px;
+      background: white;
+      padding: 15px;
+      border: 1px solid #ccc;
+      display: none;
+    }
+
+    input, textarea {
+      width: 300px;
+      padding: 4px;
+    }
+
+    textarea {
+      height: 60px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>BOOK MANAGEMENT</h2>
+
+<a onclick="showCreate()">Create New</a>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tên sách</th>
+      <th>Giá bán</th>
+      <th>Mô tả</th>
+      <th>Ảnh bìa</th>
+      <th>Ngày cập nhật</th>
+      <th>Số lượng</th>
+      <th>Mã CD</th>
+      <th>NXB</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="bookList"></tbody>
+</table>
+
+<div id="formArea">
+  <h3 id="formTitle">Create Book</h3>
+
+  <input type="hidden" id="bookId">
+
+  <p>Tên sách:<br>
+    <input id="title">
+  </p>
+
+  <p>Giá bán:<br>
+    <input id="price" type="number">
+  </p>
+
+  <p>Mô tả:<br>
+    <textarea id="description"></textarea>
+  </p>
+
+  <p>Ảnh bìa (tên file):<br>
+    <input id="image">
+  </p>
+
+  <p>Số lượng:<br>
+    <input id="quantity" type="number">
+  </p>
+
+  <p>Mã CD:<br>
+    <input id="categoryId">
+  </p>
+
+  <p>NXB:<br>
+    <input id="publisherId">
+  </p>
+
+  <a onclick="saveBook()">Save</a> |
+  <a onclick="hideForm()">Cancel</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
